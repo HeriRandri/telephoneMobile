@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#telephone {
+  width: 300px;
+  height: 95vh;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(parallax_865.jpg);
+  background-position: center;
+  background-size: cover;
+  outline: 12px solid black;
+}
+
+.head {
+  border-radius: 20px 20px 0 0;
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.hautParl {
+  height: 10px;
+  width: 80px;
+  border: 1px solid rgb(117, 98, 98);
+  border-radius: 5px;
+}
+
+.selfie {
+  height: 10px;
+  width: 20px;
+  border: 1px solid rgb(117, 98, 98);
+  border-radius: 5px;
+}
+
+.head1 {
+  border-radius: 0 0 20px 20px;
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  bottom: 0;
+  gap: 30px;
+}
+
+.btnCarre {
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+}
+
+.btnCircle {
+  border: 1px solid white;
+  width: 13px;
+  height: 13px;
+  border-radius: 60px;
+}
+
+.btnTria {
+  border: 1px solid white;
+  width: 13px;
+  height: 13px;
+  border-radius: 60px 0 0 60px;
+}
+
+.body {
+  background-color: transparent;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+.operteur {
+  color: white;
+  padding: 4px 03px;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+.resBaHeur {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  right: 10px;
+  font-size: 10px;
+  color: white;
+}
+
+.reseau-parent {
+  display: flex;
+  gap: 02px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.reseau {
+  width: 1.5px;
+  height: 2px;
+  background-color: white;
+}
+
+.reseau1 {
+  width: 1.5px;
+  height: 5px;
+  background-color: white;
+}
+
+.reseau2 {
+  width: 1.5px;
+  height: 8px;
+  background-color: white;
+}
+
+.reseau3 {
+  width: 1.5px;
+  height: 10px;
+  background-color: white;
+}
+
+.batterieBaT {
+  width: 20px;
+  height: 7px;
+  border: 0.1px solid wheat;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+}
+
+.SigneBat {
+  background-color: green;
+  width: 85%;
+  height: 7px;
+}
+
+.sous-body {
+  display: block;
+}
+
+.sous-body .grandHeure {
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 28%;
+  left: 30%;
+  height: 20px;
+  width: 60px;
+  color: white;
+}
+
+.sous-body .jour {
+  position: absolute;
+  bottom: 17%;
+  left: 39%;
+  height: 20px;
+  width: 90px;
+  color: white;
+}
