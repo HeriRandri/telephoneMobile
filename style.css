@@ -154,17 +154,25 @@
   position: relative;
 }
 
+.heure {
+  display: flex;
+}
+
 .SigneBat {
   background-color: green;
   width: 85%;
   height: 7px;
 }
 
-.sous-body {
+#sous-body {
   display: block;
 }
 
-.sous-body .grandHeure {
+.heureke {
+  display: flex;
+}
+
+#sous-body #heurekely {
   font-family: sans-serif;
   font-size: 50px;
   display: flex;
@@ -176,11 +184,183 @@
   color: white;
 }
 
-.sous-body .jour {
+#sous-body #heureke {
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 29%;
+  left: 50%;
+  height: 20px;
+  width: 60px;
+  color: white;
+}
+
+#sous-body #min {
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 28%;
+  left: 55%;
+  height: 20px;
+  width: 60px;
+  color: white;
+}
+
+#sous-body .jour {
   position: absolute;
   bottom: 17%;
   left: 39%;
   height: 20px;
   width: 90px;
   color: white;
+}
+
+#sous-body #test {
+  position: absolute;
+  bottom: 30%;
+  left: 39%;
+  height: 20px;
+  width: 90px;
+  color: white;
+}
+
+#code {
+  width: 100%;
+  position: relative;
+  top: 40%;
+  left: 70px;
+  color: white;
+  font: 0.9em sans-serif;
+  display: none;
+}
+
+.ligne {
+  background-color: rgb(213, 181, 181);
+  height: 1px;
+  width: 150px;
+  top: 350%;
+  position: absolute;
+}
+
+.num1 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  top: 450%;
+  position: absolute;
+  gap: 50px;
+}
+
+.num1:hover {
+  font-size: 30px;
+  background-color: white;
+  opacity: 0.4;
+  color: #000;
+  font-weight: bold;
+}
+
+.num1::before {
+  content: "1";
+}
+
+.num1::after {
+  content: "3";
+}
+
+.num2 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  top: 750%;
+  position: absolute;
+  gap: 50px;
+}
+
+.num2:hover {
+  font-size: 30px;
+  background-color: white;
+  opacity: 0.4;
+  color: #000;
+  font-weight: bold;
+}
+
+.num2::before {
+  content: "4";
+}
+
+.num2::after {
+  content: "6";
+}
+
+.num3 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  top: 1050%;
+  position: absolute;
+  gap: 50px;
+}
+
+.num3:hover {
+  font-size: 30px;
+  background-color: white;
+  opacity: 0.4;
+  color: #000;
+  font-weight: bold;
+}
+
+.num3::before {
+  content: "7";
+}
+
+.num3::after {
+  content: "9";
+}
+
+.num4 {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  top: 1350%;
+  position: absolute;
+  gap: 50px;
+}
+
+.num4:hover {
+  font-size: 30px;
+  background-color: white;
+  opacity: 0.4;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.num4::before {
+  content: "10";
+  color: transparent;
+}
+
+.num4::after {
+  content: "x";
+  padding: 6px 10px;
+  color: black;
+  height: 0px;
+  width: 0px;
+  font-size: 10px;
+  background-color: white;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.sortir {
+  font-family: sans-serif;
+  position: absolute;
+  top: 280px;
+  left: 25px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
